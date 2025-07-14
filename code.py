@@ -4,7 +4,6 @@ import numpy as np
 import torch
 from ultralytics import YOLO
 
-
 # Load a pre-trained YOLOv8 model (optional custom hand detection model)
 model = YOLO("yolov8n.pt")  # Use a model trained on hands if available
 
