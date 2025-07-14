@@ -28,6 +28,7 @@ if uploaded_file is not None:
 
         # Placeholder logic (real finger detection would need a hand landmark model)
         st.success(f"Estimated Fingers Raised: {count if count <= 5 else 'Unknown'}")
+        
         st.write("⚠️ Note: This model isn't trained on fingers. For accurate results, integrate with a finger-counting model like Mediapipe or a YOLO custom model.")
 
 
